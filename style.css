@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: #e3000b;
+}
+
+#miElemento {
+    margin-left: 30px;
+    background-color: blue;
+    width: 150px;
+    color: transparent;
+    padding: 20px;
+    /*border: black solid 5px;*/
+    transition: all 0.5s;
+    /* border-radius: 20px; */
+    /*box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius:7px 50px 50px 50px;
+    -moz-border-radius:7px 50px 50px 50px;
+    -webkit-border-radius:7px 50px 50px 50px;*/
+    border-radius: 32px 34px 33px 33px;
+-moz-border-radius: 32px 34px 33px 33px;
+-webkit-border-radius: 32px 34px 33px 33px;
+border: 5px solid #000000;
+   
+-webkit-box-shadow: 9px 12px 46px 30px rgba(153,44,52,1);
+-moz-box-shadow: 9px 12px 46px 30px rgba(153,44,52,1);
+box-shadow: 9px 12px 46px 30px rgba(153,44,52,1);
+
+
+    margin-top: 40px;
+
+    }
+
+    /* Esto sólo cambia la duración de esta animación en particular */
+.animate__animated.animate__bounce {
+    --animate-duration: 1s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0s;
+  }
+.animate__zoomIn{
+    --animate-duration: 3s;
+}
+
+.tabla{
+    
+    position: absolute;
+    width: 500px;
+    height: 9px;
+    background-color:transparent;
+    /* border: solid 3px chartreuse; */
+   
+    /*justify-content:center;*/
+}
+.tabla p{
+    /*text-align: center;*/
+    text-align: left;
+    text-decoration: none;
+    transform: translateX(-600px);
+    margin-top: -280px;
+    /*text-shadow: 7px 5px 5px rgba(0,0,0,0.6);*/
+    
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 18px;
+        font-style: normal;
+      
+      }
+    
+
+#tablauno{
+    position: absolute;
+    width: 500px;
+    height: 9px;
+    background-color:transparent;
+}
+#tablauno p{
+    /*text-align: center;*/
+    text-align: left;
+    text-decoration: none;
+    transform: translateX(-50px);
+    margin-top: -170px;
+    font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 18px;
+        font-style: normal;
+}
+
+.tablaDos{
+    position: absolute;
+    width: 500px;
+    height: 9px;
+    background-color:transparent;
+}
+.tablaDos p{
+    /*text-align: center;*/
+    text-align: left;
+    text-decoration: none;
+    transform: translateX(-280px);
+    margin-top: -70px;
+    font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 18px;
+        font-style: normal;
+}
+button{
+    
+    display: inline-block;
+    padding: 10px 20px;
+    /*font-size: 13px;*/
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: px;*/
+    font-style: normal;
+    margin-left: 38px;
+    
+    
+   
+  }
+ button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+    /*transform: scale(-1.1);
+    /* transform: translateY(-80px); */
+  }
+  /* button:active{
+    background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+  } */
+  button::active{
+    background-color: #fcf414;
+    box-shadow: none;
+    
+    }
+#botonPrueba{
+    display: inline-block;
+    padding: 13px 20px;
+    /*font-size: 13px;*/
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: px;*/
+    font-style: normal;
+    margin-left: -350px;
+    margin-bottom: 20px;
+
+  }
+  #botonPrueba:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+    transform: scale(-1.1);
+    /* transform: translateY(-80px); */
+  }
+  /* button:active{
+    background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+  } */
+  #botonPrueba::active{
+    background-color: #fcf414;
+    box-shadow: none;
+    
+    }
+
+   
+#botonPruebaVar{
+    
+        display: inline-block;
+        padding: 10px 20px;
+        /*font-size: 13px;*/
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ff5252;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #000;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        /*font-weight: px;*/
+        font-style: normal;
+        margin-left:-400px
+      }
+      #botonPruebaVar:hover {
+        background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+        transform: scale(-1.1);
+        /* transform: translateY(-80px); */
+      }
+
+
+      #botonPruebaLet{
+        display: flex;
+        padding: 13px 20px;
+        /*font-size: 13px;*/
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ff5252;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #000;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        /*font-weight: px;*/
+        font-style: normal;
+        margin-left: -610px;
+        margin-top: 30px;
+      }
+      #botonPruebaLet:hover {
+        background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+        transform: scale(-1.1);
+        /* transform: translateY(-80px); */
+      }
+      /* button:active{
+        background-color: #fcf414;
+      box-shadow: none;
+      transform: translateY(4px);
+      } */
+      #botonPruebaLet::active{
+        background-color: #fcf414;
+        box-shadow: none;
+        
+        }

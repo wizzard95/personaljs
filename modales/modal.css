@@ -1,0 +1,91 @@
+/* Estilos para la ventana modal */
+#modalBtn{
+    transform: translateX(-650px);
+    margin-top: -180px;
+}
+
+
+.modal {
+   background-color: transparent;
+    display: flex; /* Siempre flex para poder usarlo */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0px;
+    width: 101%;
+    height: 101%;
+    /*background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none; /* Evita que se pueda interactuar cuando está cerrado */
+   transition: opacity 0.3s ease;
+   border-radius:7px 50px 50px 50px;
+    -moz-border-radius:7px 50px 50px 50px;
+    -webkit-border-radius:7px 50px 50px 50px;
+    
+    
+  }
+  
+  .modal.show {
+    opacity: 1; /* Se hace visible con una transición suave */
+    pointer-events: auto; /* Permite interactuar cuando está visible */
+    
+  }
+
+
+  
+  .modal-content {
+    margin-left: 940px;
+    color:white;
+   /* background-color: rgb(145, 93, 93);*/
+   background-color: #e3000b;
+    margin-top: 80px;
+    padding: 80px;
+    border-radius: 30px;
+    width: 300px;
+    /*border: solid 1px rgb(46, 48, 51);*/
+   -webkit-box-shadow: -2px 11px 74px 30px rgba(153,44,52,1);
+-moz-box-shadow: -2px 11px 74px 30px rgba(153,44,52,1);
+box-shadow: -2px 11px 74px 30px rgba(153,44,52,1);
+    
+     /* Inicia desde abajo */
+    transition: transform 0.3s ease;
+  }
+  .modal-content p{
+    transform: translateY(100px);
+    transform: translateX(-50px);
+    padding-top: 200px;
+    margin-right: -80px;
+    text-align: left;
+   
+  }
+  /*.modal-content p:hover{
+
+  }*/
+  
+  .modal.show .modal-content {
+    transform: translateY(-200px); /* Se despliega hacia arriba al abrir */
+  }
+  
+  .modal.hide .modal-content {
+    transform: translateY(180px); /* Se desliza hacia abajo al cerrar */
+   /* transform: scale(3.1);*/
+  }
+
+  
+  /* Estilo del botón de cierre */
+  .close {
+    margin-right: -60px;
+    margin-top: -50px;
+   /* transform: translateY(80px);*/
+    color: rgb(31, 252, 61);
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: rgb(174, 243, 12);
+}
